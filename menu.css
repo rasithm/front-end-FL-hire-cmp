@@ -24,7 +24,7 @@ body {
     margin-top: 80px;
     position: sticky;
     top: 61px;
-    border-bottom: 4px solid #141B5F;
+    border-bottom: 3px solid #141B5F;
     z-index: 5;
 }
 .menu-item{
