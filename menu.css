@@ -23,7 +23,7 @@ body {
     border-radius: 15px;
     margin-top: 80px;
     position: sticky;
-    top: 54px;
+    top: 61px;
     border-bottom: 4px solid #141B5F;
     z-index: 5;
 }
@@ -63,7 +63,8 @@ body {
     background-color: black;
 }*/
 .dev-list{
-    height: 1500px;
+    /*min-height: 1000px;*/
+    height: auto;
     width: 1210px;
     background-color: rgb(255, 255, 255);
     margin-left: 70px;
@@ -72,6 +73,13 @@ body {
     border-radius: 15px;
     display: flex;
     white-space: nowrap;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+
+    flex-direction: row;
+    align-items: stretch;
 
 }
 
@@ -109,7 +117,8 @@ body {
 
 
 .left{
-    height: 1500px;
+    /*min-height: 1000px;*/
+    height: auto;
     width: 50%;
     padding-right: 20px;
     border-top-left-radius: 15px;

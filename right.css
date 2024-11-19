@@ -12,12 +12,17 @@ body {
     
   }
 .right{
-    height: 1500px;
+    /*min-height: 1000px;*/
+    height: auto;
     width: 60%;
     /*background-color: aquamarine;*/
     border-top-right-radius: 15px;
-    white-space: nowrap;
+    
     z-index: 2;
+    border-bottom-right-radius: 15px;
+    display: block;
+    
+    
     
 }
 .right-dev-info-fixed-1-part1{
@@ -126,7 +131,7 @@ body {
     margin-top: 10px;
     /*background-color: brown;*/
     position: sticky;
-    top: 110px;
+    top: 120px;
     margin-bottom: 20PX;
     border-bottom: 2px solid black;
     background-color: #FFFFFF;
@@ -136,18 +141,27 @@ body {
 
 .right-dev-info{
     /*background-color: bisque;*/
-    height: 1300px;
+    /*min-height: 100vh;*/
+    height: auto;
     margin-left: 15px;
     z-index: 1;
+    border-bottom-right-radius: 15px;
     
 
 }
 .right-insert{
     /*background-color: red;*/
-    height: 1500px;
+    /*min-height: 100vh;*/
+    height: auto;
     background-color: #FFFFFF;
     border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex-grow: 1;
     
+}
+
+.right .right-insert{
+    overflow: visible;
 }
 
 

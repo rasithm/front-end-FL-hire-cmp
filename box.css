@@ -11,7 +11,8 @@
     
 }
 .left{
-    height: 1500px;
+    /*min-height: 1000px;*/
+    height: auto;
     width: 40%;
     padding-right: 20px;
     border-top-left-radius: 15px;
@@ -22,7 +23,8 @@
 }
 .right-insert {
     /*background-color: #ee0d0d;*/
-    height: 1500px;
+    /*min-height: 1000px;*/
+    height: auto;
     width: 100%;
 }
 .right-rec-box-dev-name{
@@ -219,7 +221,7 @@
 
 .right-rec-box-scroll{
     /*background-color: #0a354e;*/
-    height: 1000px;
+    height: auto;
     margin-right: 20px;
     margin-top: 5px;
 }
